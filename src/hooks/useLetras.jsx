@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import LetrasContext from "./context/LetrasProvider";
+import LetrasContext from "../context/LetrasProvider";
 
 const useLetras = () => {
   return useContext(LetrasContext);
