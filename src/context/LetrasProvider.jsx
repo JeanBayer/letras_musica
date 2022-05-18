@@ -5,11 +5,21 @@ const LetrasContext = createContext();
 const LetrasProvider = ({ children }) => {
   const [alerta, setAlerta] = useState("");
 
+  const busquedaLetra = (busqueda) => {
+    console.log(busqueda);
+  };
+
   return (
-    <LetrasContext.Provider value={{
+    <LetrasContext.Provider
+      value={{
         alerta,
-        setAlerta
-    }}> {children} </LetrasContext.Provider>
+        setAlerta,
+        busquedaLetra,
+      }}
+    >
+      {" "}
+      {children}{" "}
+    </LetrasContext.Provider>
   );
 };
 
