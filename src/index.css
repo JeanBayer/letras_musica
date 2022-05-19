@@ -28,7 +28,7 @@ legend {
 main,
 form {
   margin: 5rem auto 0 auto;
-  max-width: 1000px;
+  max-width: 100rem;
   width: 90%;
   padding: 3rem;
   background-color: white;
@@ -36,6 +36,7 @@ form {
   -webkit-box-shadow: -1px 15px 62px -35px rgba(0, 0, 0, 0.96);
   -moz-box-shadow: -1px 15px 62px -35px rgba(0, 0, 0, 0.96);
   border-radius: .8rem;
+  font-size: 1.5rem;
 }
 
 
@@ -103,4 +104,5 @@ form input[type="submit"]:hover {
 
 .letra {
   white-space: pre-wrap;
+  font-size: 2rem;
 }

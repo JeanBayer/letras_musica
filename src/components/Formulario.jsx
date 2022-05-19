@@ -16,8 +16,6 @@ const Formulario = () => {
     }
     
     busquedaLetra(busqueda);
-
-    setAlerta("");
     console.log({ busqueda });
   };
 

@@ -1,8 +1,8 @@
 import useLetras from "../hooks/useLetras";
 
 const Letra = () => {
-  const { letra } = useLetras();
-  return <div className="letra">{letra}</div>;
+  const { letra, cargando } = useLetras();
+  return cargando ? <p>Cargando...</p> : <div className="letra">{letra}</div>;
 };
 
 export default Letra;
